@@ -1,0 +1,225 @@
+.Mint {
+  background: #0b111b;
+
+  .Mint-main {
+    display: flex;
+    align-items: center;
+    padding: 55px;
+    column-gap: 231px;
+    .left {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 20px;
+      h1 {
+        background: -webkit-linear-gradient(90deg, #698ade 0.99%, #fe3dce 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+      }
+      .input-div {
+        display: flex;
+        width: 400px;
+        .plus {
+          background: linear-gradient(0deg, #dddddd, #dddddd),
+            linear-gradient(0deg, #ffffff, #ffffff);
+          border: 1px solid #ffffff;
+          border-radius: 5px 0px 0px 5px;
+          padding: 13px 16px;
+          cursor: pointer;
+          outline: none;
+        }
+        input {
+          background: linear-gradient(0deg, #dddddd, #dddddd),
+            linear-gradient(0deg, #ffffff, #ffffff);
+          border: 1px solid #ffffff;
+          padding: 0px 16px;
+          outline: none;
+          width: 100%;
+        }
+        .minus {
+          background: linear-gradient(0deg, #dddddd, #dddddd),
+            linear-gradient(0deg, #ffffff, #ffffff);
+          border: 1px solid #ffffff;
+          border-radius: 0px 5px 5px 0px;
+          padding: 13px 16px;
+          cursor: pointer;
+          outline: none;
+        }
+      }
+      .dropdown-div {
+        width: 400px;
+        outline: none;
+        box-shadow: none;
+        color: #2d2a2c !important;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-align: left;
+
+        button {
+          width: 100%;
+          height: 50px;
+          color: #2d2a2c !important;
+          text-align: left;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: linear-gradient(0deg, #dddddd, #dddddd),
+            linear-gradient(0deg, #ffffff, #ffffff);
+          border: 1px solid #ffffff;
+        }
+      }
+      p {
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: white;
+        margin: 0px;
+      }
+      .mint-btn {
+        background: linear-gradient(
+          90deg,
+          #31a9e5 4.69%,
+          #9873d9 52.08%,
+          #fe3dce 100%
+        );
+        border: 1px solid #0757f2;
+        padding: 16px 173.5px;
+        border-radius: 5px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+////////////////////////////// Media Queries///////////////////
+
+@media only screen and (max-width: 600px) {
+  .Mint {
+    .Mint-main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 50px 20px;
+      row-gap: 20px;
+      .left {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+        h1 {
+          background: -webkit-linear-gradient(
+            90deg,
+            #698ade 0.99%,
+            #fe3dce 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: center;
+        }
+        .input-div {
+          display: flex;
+          width: 100%;
+          .plus {
+            background: linear-gradient(0deg, #dddddd, #dddddd),
+              linear-gradient(0deg, #ffffff, #ffffff);
+            border: 1px solid #ffffff;
+            border-radius: 5px 0px 0px 5px;
+            padding: 10px 14px;
+            cursor: pointer;
+            outline: none;
+          }
+          input {
+            background: linear-gradient(0deg, #dddddd, #dddddd),
+              linear-gradient(0deg, #ffffff, #ffffff);
+            border: 1px solid #ffffff;
+            padding: 0px 14px;
+            outline: none;
+            width: 100%;
+          }
+          .minus {
+            background: linear-gradient(0deg, #dddddd, #dddddd),
+              linear-gradient(0deg, #ffffff, #ffffff);
+            border: 1px solid #ffffff;
+            border-radius: 0px 5px 5px 0px;
+            padding: 10px 14px;
+            cursor: pointer;
+            outline: none;
+          }
+        }
+        .dropdown-div {
+          width: 100%;
+          outline: none;
+          box-shadow: none;
+          color: #2d2a2c !important;
+          font-family: Inter;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 18px;
+          letter-spacing: 1px;
+          text-align: left;
+
+          button {
+            width: 100%;
+            height: 50px;
+            color: #2d2a2c !important;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(0deg, #dddddd, #dddddd),
+              linear-gradient(0deg, #ffffff, #ffffff);
+            border: 1px solid #ffffff;
+          }
+        }
+        p {
+          text-align: center;
+          font-family: Inter;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 18px;
+          letter-spacing: 1px;
+          text-align: left;
+          color: white;
+          margin: 0px;
+        }
+        .mint-btn {
+          background: linear-gradient(
+            90deg,
+            #31a9e5 4.69%,
+            #9873d9 52.08%,
+            #fe3dce 100%
+          );
+          border: 1px solid #0757f2;
+          padding: 14px 0px;
+          border-radius: 5px;
+          text-align: center;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@
   .right {
     margin-left: auto;
     a {
-      font-family: Inter;
+      font-family: "Inter";
       font-size: 16px;
       font-weight: 500;
       line-height: 19px;
@@ -16,7 +16,7 @@
     button {
       margin-left: 30px;
       padding: 13.5px 36px;
-      font-family: Inter;
+      font-family: "Inter";
       font-size: 18px;
       font-weight: 700;
       line-height: 18px;
@@ -46,7 +46,6 @@
       flex-direction: column;
       row-gap: 20px;
       a {
-        font-family: Inter;
         font-size: 16px;
         font-weight: 500;
         line-height: 19px;
@@ -57,7 +56,6 @@
       button {
         margin-left: 0px;
         padding: 13.5px 36px;
-        font-family: Inter;
         font-size: 18px;
         font-weight: 700;
         line-height: 18px;

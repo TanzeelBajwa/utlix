@@ -1,0 +1,362 @@
+.staking {
+  .staking-main {
+    .top {
+      background: url(/Images/staking.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 230px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h2 {
+        font-family: "Inter";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 72px */
+        text-transform: uppercase;
+        background: linear-gradient(
+          90deg,
+          #857cdb 0%,
+          #857cdb 33.33%,
+          #fe3dce 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    .bottom {
+      position: relative;
+      padding: 224px auto 119px auto;
+
+      .reward {
+        position: absolute;
+        top: -320px;
+        left: 10%;
+        padding: 65px 41px;
+        border-radius: 20px;
+        background: #151928;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        .line {
+          background-color: #595555;
+          width: 2px;
+          height: 51px;
+        }
+        h6 {
+          color: #fff;
+          font-family: "Inter";
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 30.8px */
+          text-transform: capitalize;
+          margin-bottom: 9px;
+        }
+        p {
+          color: #959595;
+          font-family: "Inter";
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 30.8px */
+          text-transform: capitalize;
+          margin-bottom: 0px;
+        }
+      }
+      .tab-section {
+        margin: 224px auto 119px auto;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        background: #151928;
+        width: 550px;
+        .tab-head {
+          padding: 24px 30px;
+          background: #0b111b;
+          border-radius: 20px 20px 0px 0px;
+          h2 {
+            font-family: "Inter";
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 30.8px */
+            text-transform: capitalize;
+
+            background: linear-gradient(90deg, #7a81dc 0%, #fe3dce 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+        .tab-part {
+          padding: 30px 20px 50px 20px;
+          .tab {
+            background: transparent;
+            color: #959595;
+            font-family: "Inter";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 19.8px */
+            text-transform: capitalize;
+            &:active {
+              color: #fff;
+            }
+            & &:focus {
+              color: #fff;
+            }
+          }
+          .MuiTab-textColorPrimary.Mui-selected {
+            color: #fff;
+            box-shadow: none;
+            outline: none;
+          }
+          .tab-content {
+            .ist {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-bottom: 20px;
+              h5 {
+                font-family: "Inter";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 19.8px */
+                text-transform: capitalize;
+                background: linear-gradient(90deg, #7a81dc 0%, #fe3dce 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin: 0px;
+              }
+              p {
+                color: #fff;
+                font-family: "Inter";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 19.8px */
+                text-transform: capitalize;
+                margin: 0px;
+              }
+            }
+            .second {
+              border-radius: 10px;
+              border: 1px solid rgba(255, 255, 255, 0.5);
+              padding: 20px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-bottom: 30px;
+              column-gap: 10px;
+              input {
+                width: 100%;
+                background: transparent;
+                border: none;
+                outline: none;
+                color: #fff;
+                font-family: "Inter";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 110%; /* 17.6px */
+                text-transform: capitalize;
+                &::placeholder {
+                  color: #959595;
+                }
+              }
+              button {
+                color: #fff;
+                font-family: "Inter";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%; /* 18px */
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                padding: 11px 10px;
+                border-radius: 5px;
+                border: 1px solid #0757f2;
+                background: linear-gradient(
+                  90deg,
+                  #31a9e5 4.69%,
+                  #9873d9 52.08%,
+                  #fe3dce 100%
+                );
+                cursor: pointer;
+              }
+            }
+            .third,
+            .forth {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-bottom: 30px;
+              p {
+                color: #959595;
+                font-family: "Inter";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 19.8px */
+                text-transform: capitalize;
+                margin: 0px;
+              }
+              span {
+                color: #fff;
+                font-family: "Inter";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 19.8px */
+                text-transform: capitalize;
+              }
+            }
+            .approve {
+              width: 100%;
+              color: #fff;
+              font-family: "Inter";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 100%; /* 20px */
+              letter-spacing: 1px;
+              border-radius: 5px;
+              border: 1px solid #0757f2;
+              background: linear-gradient(
+                90deg,
+                #31a9e5 4.69%,
+                #9873d9 52.08%,
+                #fe3dce 100%
+              );
+              padding: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////// Media Queries///////////////////
+
+@media only screen and (max-width: 1000px) {
+  .staking {
+    .staking-main {
+      .top {
+        padding: 100px 20px;
+
+        h2 {
+          font-size: 7vw;
+        }
+      }
+      .bottom {
+        position: relative;
+        padding: 40px 20px;
+
+        .reward {
+          position: unset;
+
+          flex-direction: column;
+          width: 100%;
+          padding: 20px;
+          .unclaimed-reward {
+            margin-bottom: 20px;
+
+            width: 100%;
+          }
+          .line {
+            display: none;
+          }
+          h6 {
+            font-size: 20px;
+            text-align: center;
+          }
+          p {
+            font-size: 20px;
+            text-align: center;
+          }
+        }
+        .tab-section {
+          margin: unset;
+          margin-top: 40px;
+          border-radius: 20px;
+          border: 1px solid #fff;
+          background: #151928;
+          width: 100%;
+          .tab-head {
+            padding: 24px 30px;
+
+            h2 {
+              font-size: 25px;
+            }
+          }
+          .tab-part {
+            padding: 20px;
+            .MuiTab-root {
+              padding: 6px;
+            }
+            .tab {
+              font-size: 16px;
+            }
+
+            .tab-content {
+              .ist {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                h5 {
+                  font-family: "Inter";
+                  font-size: 18px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 110%; /* 19.8px */
+                  text-transform: capitalize;
+                  background: linear-gradient(90deg, #7a81dc 0%, #fe3dce 100%);
+                  background-clip: text;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  margin: 0px;
+                }
+                p {
+                  color: #fff;
+                  font-family: "Inter";
+                  font-size: 18px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 110%; /* 19.8px */
+                  text-transform: capitalize;
+                  margin: 0px;
+                }
+              }
+              .second {
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                column-gap: 10px;
+
+                button {
+                  font-size: 15px;
+                }
+              }
+
+              .approve {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

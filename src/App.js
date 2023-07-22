@@ -5,15 +5,17 @@ import FutureCollection from "./Components/FutureCollection/FutureCollection";
 import Main from "./Components/Main/Main";
 import Mint from "./Components/Mint/Mint";
 import Navbar from "./Components/Navbar/Navbar";
+import Staking from "./Components/staking/staking";
 
 function App() {
   return (
     <>
-      <Discover />
+      {/* <Discover />
       <Mint />
       <Main />
       <FutureCollection />
-      <Footer />
+      <Footer /> */}
+      <Staking />
     </>
   );
 }

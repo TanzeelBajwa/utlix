@@ -1,0 +1,284 @@
+.container {
+  .staking-utilix {
+    background: url("/Images/nftstaking.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      h1 {
+        padding: 0px;
+        margin: 0px;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 52.8px */
+        text-transform: capitalize;
+        background: linear-gradient(90deg, #7a81dc 0%, #fe3dce 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .stake-btn {
+        border-radius: 5px;
+        border: 1px solid #0757f2;
+        background: linear-gradient(
+          90deg,
+          #31a9e5 4.69%,
+          #9873d9 52.08%,
+          #fe3dce 100%
+        );
+        color: #fff;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 20px */
+        letter-spacing: 1px;
+        padding: 15px 45px;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      .nft {
+        border: 2px solid #fff;
+        background: #151928;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        .tick-btn {
+          display: flex;
+          margin-left: auto;
+          background: url("/Images/tick.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          width: 34px;
+          height: 34px;
+          border: none;
+          outline: none;
+          margin-bottom: 17.17px;
+          cursor: pointer;
+        }
+        .top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 17.17px;
+
+          h3 {
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 120%; /* 30px */
+            text-transform: capitalize;
+            background: linear-gradient(
+              90deg,
+              #857cdb 0%,
+              #857cdb 33.33%,
+              #fe3dce 100%
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0px;
+            padding: 0px;
+          }
+          .amount {
+            border-radius: 5px;
+            background: #ddd;
+            width: 34px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: #2d2a2c;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%; /* 20px */
+            letter-spacing: 1px;
+            text-transform: capitalize;
+          }
+        }
+        .img-div {
+          border-radius: 6px;
+          border: 5px solid #fff;
+          background: #fff;
+          margin-bottom: 60px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .bottom {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p {
+            color: #878787;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%; /* 20px */
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin: 0px;
+            padding: 0px;
+          }
+        }
+      }
+    }
+  }
+  .empty-staking {
+    background: url("/Images/nftstaking.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    .headi {
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%; /* 52.8px */
+      text-transform: capitalize;
+      background: linear-gradient(90deg, #7a81dc 0%, #fe3dce 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 124px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      p {
+        color: #fff;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 24.2px */
+        text-transform: capitalize;
+        padding: 0px;
+        margin-bottom: 20px;
+      }
+      span {
+        color: #959595;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 19.8px */
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    .staking-utilix {
+      .cards {
+        .nft {
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    .staking-utilix {
+      background: url("/Images/nftstaking.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px;
+      .head {
+        margin-bottom: 20px;
+        h1 {
+          font-size: 25px;
+        }
+        .stake-btn {
+          font-size: 16px;
+          padding: 10px 20px;
+        }
+      }
+      .cards {
+        gap: 20px;
+        .nft {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          .tick-btn {
+            display: flex;
+            margin-left: auto;
+            background: url("/Images/tick.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 34px;
+            height: 34px;
+            border: none;
+            outline: none;
+            margin-bottom: 17.17px;
+            cursor: pointer;
+          }
+          .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 17.17px;
+
+            h3 {
+              font-size: 25px;
+            }
+          }
+          .img-div {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .empty-staking {
+      padding: 20px;
+      .headi {
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 300px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}

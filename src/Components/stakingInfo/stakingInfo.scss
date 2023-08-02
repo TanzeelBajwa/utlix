@@ -1,0 +1,145 @@
+.container {
+  .Staking-info {
+    background: url("/Images/nftstaking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 203px 0px 203px 0px;
+    .nft-card {
+      margin: 0px auto;
+      border-radius: 20px;
+      border: 1px solid #fff;
+      background: #151928;
+      width: 550px;
+      .heading {
+        padding: 25px 30px;
+        background: #0b111b;
+        border-radius: 20px 20px 0px 0px;
+        h3 {
+          font-family: Inter;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 30.8px */
+          text-transform: capitalize;
+          background: linear-gradient(90deg, #7a81dc 0%, #fe3dce 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          padding: 0px;
+          margin: 0px;
+        }
+      }
+      .content {
+        padding: 0px 20px 20px 20px;
+
+        .ist,
+        .second,
+        .third,
+        .forth {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          padding: 25px 0px;
+          border-bottom: 1px solid #595555;
+          p {
+            color: #959595;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 19.8px */
+            text-transform: capitalize;
+            padding: 0px;
+            margin: 0px;
+          }
+          span {
+            color: #fff;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 19.8px */
+            text-transform: capitalize;
+          }
+        }
+        .forth {
+          border: none;
+        }
+        button {
+          border-radius: 5px;
+          border: 1px solid #0757f2;
+          background: linear-gradient(
+            90deg,
+            #31a9e5 4.69%,
+            #9873d9 52.08%,
+            #fe3dce 100%
+          );
+          padding: 15px;
+          color: #fff;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 100%; /* 20px */
+          letter-spacing: 1px;
+          width: 100%;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    .Staking-info {
+      background: url("/Images/nftstaking.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      .nft-card {
+        margin: 0px auto;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        background: #151928;
+        width: 100%;
+        .heading {
+          padding: 15px;
+          background: #0b111b;
+          border-radius: 20px 20px 0px 0px;
+          h3 {
+            font-size: 25px;
+          }
+        }
+        .content {
+          padding: 0px 15px 15px 15px;
+
+          .ist,
+          .second,
+          .third,
+          .forth {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 0px;
+            border-bottom: 1px solid #595555;
+            p {
+              font-size: 16px;
+            }
+            span {
+              font-size: 16px;
+            }
+          }
+          .forth {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
